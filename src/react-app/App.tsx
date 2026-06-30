@@ -8,6 +8,17 @@ import honoLogo from "./assets/hono.svg";
 import "./App.css";
 
 function App() {
+  return (
+
+    <>
+      <h1>Thư viện Nhi khoa</h1>
+      <p>Chào mừng đến với hệ thống tra cứu bệnh nhi.</p>
+    </>
+
+  );
+}
+
+function App_defauft() {
 	const [count, setCount] = useState(0);
 	const [name, setName] = useState("unknown");
 
